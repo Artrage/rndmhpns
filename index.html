@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!--<script src="/assets/js/counter.js"></script>-->
-    <script src="/assets/js/button-img.js"></script>
-    <script src="/assets/js/modal.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+		type="text/css" />
+
+    <script type="text/javascript" src="/assets/js/button-img.js"></script>
+    <!--<script type="text/javascript" src="/assets/js/modal.js"></script>-->
+    <script type="text/javascript" src="/assets/js/counter.js"></script>
 
 
     <link rel="stylesheet" href="/assets/css/style.css">
 
-    <!-- modal -->
+
+    <!-- modal
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="/assets/js/modal-jq.js"></script>-->
+
 
     <title>rndm hpns</title>
 </head>
@@ -25,63 +36,106 @@
 
 <header>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="navbar-header">
-    <a class="navbar-brand" href="index.html">rndm hpns</a>
-    <button type="button" class="navbar-toggle button-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-  </div>
-  <div class="navbar-collapse collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">hm</a></li>
-      <li><a href="#about">abt</a></li>
-      <li><a href="#contact">cntct</a></li>
+<nav class="navbar bg-light navbar-light navbar-light-bg">
+  <a class="navbar-brand logo" href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <button class="navbar-toggler navbar-toggler-nofx" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav collapse-align-right">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">hm</a>
+      </li>
 
-        <!-- Modal HTML embedded directly into document -->
-        <div id="ex1" class="modal">
-        <p>trying to logout? you have to login first, which is impossible.</p>
-        <a href="#" rel="modal:close">cls</a>
+        <div class="modal fade modal-background myModal" id="exampleModalCenter1" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-index">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle1">abt</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                    </div>
+                    <div class="modal-body modal-text">
+                        nothing else matters except happiness
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary modal-text" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter1" href="#">abt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">cntct</a>
+      </li>   
+
+
+
+        <div class="modal fade modal-background myModal" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-index">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">lgt</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                    </div>
+                    <div class="modal-body modal-text">
+                        trying to logout? you have to log in first, which is impossible!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary modal-text" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Link to open the modal -->
-        <li><a href="#ex1" rel="modal:open">logout</a></li>
 
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter" href="#">lgt</a>
+      </li>    
+ 
     </ul>
-    <!--<div class="navbar-header navbar-right">
-  		<p class="navbar-text">
-  		<a href="#" class="navbar-link">Username</a>
-  		</p>
-  	</div>-->
-  </div>
+  </div>  
 </nav>
-</header>    
 
 
-
-<div class="containter-fluid">
-   <div class="row no-gutters">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 image-position">
-            <button id="jsstyle" class="button-toggle"
-            onclick="display_random_image();">clk m</button>
+</header>
 
 
-        </div>
+<div class="containter-fluid flexbox button-center">
+	<div class="row no-gutters image-position button-row">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="update">
+			<button id="jsstyle" class="button-toggle"
+            onclick="display_random_image();">clk m</button></div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hpns-bg">
+			hpns lvl:&nbsp;</div>
+		<div id="counter" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 counter" data-value="666">
+			0</div>
+	</div>
 
-
-   </div>
 </div>
 
+<!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+-->
 </body>
 <footer class="footer footer-dark containter-fluid navbar-fixed-bottom">
 <div class="row no-gutters">
-    <div class="col">
+    <div class="col-6 evil-footer">
          I am drk n evl ftr
     </div>
-        <div class="col">
-					<h5 class="uppercase general-sub">dnt ppl</h5>
+    <div class="col-6 paypal-button">
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 						<input type="hidden" name="cmd" value="_donations" />
 						<input type="hidden" name="business" value="8DAVRXX4QH66J" />
@@ -93,30 +147,5 @@
 </div>
 </footer>
 
-<!--<footer>
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="navbar-header">
-    <a class="navbar-brand" href="#">rndm hpns</a>
-    <button type="button" class="navbar-toggle button-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-  </div>
-  <div class="navbar-collapse collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">hm</a></li>
-      <li><a href="#about">abt</a></li>
-      <li><a href="#contact">cntct</a></li>
-    </ul>
-    <!--<div class="navbar-header navbar-right">
-  		<p class="navbar-text">
-  		<a href="#" class="navbar-link">Username</a>
-  		</p>
-  	</div>-->
-  <!--</div>
-</nav>
-
-</footer>-->
 
 </html>

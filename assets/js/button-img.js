@@ -1,53 +1,30 @@
 function display_random_image() 
 {
      var theImages = [{
-        src: "https://i.imgur.com/45YkY1Al.png",
-
         src: "https://i.imgur.com/zmE1hw4l.jpg",
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
-
         src: "https://i.imgur.com/NItur1ml.jpg",
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
-
         src: "https://i.imgur.com/g8vLZzZl.jpg",
     }, {   
-        src: "https://i.imgur.com/45YkY1Al.png",
-
         src: "https://i.imgur.com/aaubV35l.jpg",
     }, {
-         src: "https://i.imgur.com/45YkY1Al.png",
-
         src: "https://i.imgur.com/qlwUWIIl.jpg",
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
-
         src: "https://i.imgur.com/RjlFThfl.jpg",
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
-
-        src:"https://i.imgur.com/tMjv8cYl.jpg",
+        src: "https://i.imgur.com/tMjv8cYl.jpg",
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
-
-        src:"https://i.imgur.com/KEctMJzl.jpg"
+        src: "https://i.imgur.com/KEctMJzl.jpg"
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
- 
         src: "https://i.imgur.com/qJn17cCl.jpg"
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
-
         src: "https://i.imgur.com/GcU3Pnzl.jpg"
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
         src: "https://i.imgur.com/Qpn5lIBl.jpg"
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
         src: "https://i.imgur.com/lp2PcQFl.jpg"
     }, {
-        src: "https://i.imgur.com/45YkY1Al.png",
         src: "https://i.imgur.com/JuytvWll.jpg"
     }];
     

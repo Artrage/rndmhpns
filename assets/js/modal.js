@@ -15,3 +15,5 @@ $('#clickMe').click(function(event) {
             });
     }); //close click
 });
+
+$('#myModal').modal(options)
