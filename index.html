@@ -30,6 +30,13 @@
     <script src="/assets/js/modal-jq.js"></script>-->
 
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_Iqh4xtz1OZqOEvdEiTLb5");
+        })();
+    </script>
+
     <title>rndm hpns</title>
 </head>
 <body>
@@ -47,7 +54,7 @@
         <a class="nav-link" href="index.html">hm</a>
       </li>
 
-        <div class="modal fade modal-background myModal" id="exampleModalCenter1" tabindex="-1" role="dialog"
+        <div class="modal fade modal-background myModal modal-index" id="exampleModalCenter1" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="false">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content modal-index">
@@ -61,7 +68,7 @@
                         nothing else matters except happiness
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary modal-text" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary modal-text" data-dismiss="modal">cls</button>
                     </div>
                 </div>
             </div>
@@ -73,8 +80,55 @@
       <li class="nav-item">
         <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter1" href="#">abt</a>
       </li>
+
+
+        <div class="modal fade modal-background myModal" id="exampleModalCenter2" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-index">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle2">cntct rndm hpns</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                    </div>
+                    <div class="modal-body modal-text">
+                    
+<form onsubmit="return sendMail(this);">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">email adrs</label>
+    <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1">ur nm</label>
+    <input type="name" class="form-control" id="name" placeholder="ur name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlInput1">sbjct</label>
+    <input type="subject" class="form-control" id="subject" placeholder="sbjct" required>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">ur msg</label>
+    <textarea class="form-control" id="usermessage" rows="3" placeholder="ur msg" required></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary mb-2" onsubmit="return sendMail(this);">snd</button>
+</form>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary modal-text" data-dismiss="modal">cls</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
       <li class="nav-item">
-        <a class="nav-link" href="#">cntct</a>
+        <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter2" href="#">cntct</a>
       </li>   
 
 
@@ -93,7 +147,7 @@
                         trying to logout? you have to log in first, which is impossible!
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary modal-text" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary modal-text" data-dismiss="modal">cls</button>
                     </div>
                 </div>
             </div>
@@ -145,6 +199,10 @@
                     </form>
     </div>
 </div>
+
+<script src="./assets/js/sendEmail.js">
+</script>
+
 </footer>
 
 
