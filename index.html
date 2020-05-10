@@ -29,12 +29,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <script src="/assets/js/modal-jq.js"></script>-->
 
-
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function(){
-            emailjs.init("user_Iqh4xtz1OZqOEvdEiTLb5");
-        })();
+    (function(){
+        emailjs.init("user_gh1Yz7dfiPeNQBkjmiOLV");
+    })();
     </script>
 
     <title>rndm hpns</title>
@@ -88,13 +88,16 @@
                 <div class="modal-content modal-index">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalCenterTitle2">cntct rndm hpns</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close button-toggle" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
                     </div>
                     <div class="modal-body modal-text">
-                    
-<form onsubmit="return sendMail(this);" method="POST">
+
+<!-- <form onsubmit="return sendForm(this);" id="myform" method="post">
+--> 
+
+<form id="myform" method="post">
   <div class="form-group">
     <label for="exampleFormControlInput1">email adrs</label>
     <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required>
@@ -115,13 +118,13 @@
     <textarea class="form-control" id="usermessage" rows="3" placeholder="ur msg" required></textarea>
   </div>
 
-  <button type="submit" class="btn btn-primary mb-2">snd</button>
+  <button type="submit" class="btn btn-primary mb-2 button-toggle">snd</button>
 </form>
 
 
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary modal-text" data-dismiss="modal">cls</button>
+</div>
+        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary modal-text button-toggle" data-dismiss="modal">cls</button>
                     </div>
                 </div>
             </div>
@@ -147,7 +150,7 @@
                         trying to logout? you have to log in first, which is impossible!
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary modal-text" data-dismiss="modal">cls</button>
+                        <button type="button" class="btn btn-secondary modal-text button-toggle" data-dismiss="modal">cls</button>
                     </div>
                 </div>
             </div>
