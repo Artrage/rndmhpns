@@ -93,7 +93,10 @@ font-family: 'Quicksand', sans-serif; */
 .button-toggle:focus,.button-toggle:active {
     outline: none;
     text-decoration: none;
-    color: #818181;
+    color: #ffad41;
+    background-color: #818181;
+    border: 1px #5e5e5e solid;
+
 }
 
 .button-toggle:hover{
