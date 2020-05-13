@@ -78,19 +78,20 @@ font-family: 'Quicksand', sans-serif; */
 }
 
 .button-toggle {
-    color:#818181;
+   /* color:#555555;*/
+    color:#4f35df;
     border: 1px solid #cccccc;
     border-radius: 2px;
     outline:none;
     background: #e2e2e2;
-
+    position: relative;
 }
 
 .button-email {
 
 }
 
-.button-toggle:focus,.button-toggle:active {
+.button-toggle:focus {
     outline: none;
     text-decoration: none;
     color: #ffad41;
@@ -108,7 +109,7 @@ font-family: 'Quicksand', sans-serif; */
 .counter {
    font-family: 'Lato', sans-serif;
    background-color: #ffad41;
-    border-radius: 3px;
+   border-radius: 3px;
    float: center;
    /*padding:50%;*/
 

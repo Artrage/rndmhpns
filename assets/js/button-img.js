@@ -1,3 +1,4 @@
+
 function display_random_image() 
 {
      var theImages = [{
@@ -53,4 +54,38 @@ for (var p = 0; p < l; p++) {
 }
 // display the image  
 document.body.appendChild(newImage);
+}
+
+
+$(document).ready(function(){
+  $("#update").click(function(){
+    var jump = $("#update");
+    jump.animate({fontSize: '1.2em'}, "medium");
+    jump.animate({fontSize: '1em'}, "medium");
+  });
+});
+
+$(document).ready(function(){
+  $("#update").click(function(){
+    var jump = $("#hpns");
+    jump.animate({fontSize: '1.3em'}, "medium");
+    jump.animate({fontSize: '1em'}, "slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#update").click(function(){
+    var jump = $("#counter");
+    jump.animate({fontSize: '2em'}, "slow");
+    jump.animate({fontSize: '1em'}, "medium");
+  });
+});
+
+
+function sparks(){
+
+}
+
+function bgchange(){
+
 }
