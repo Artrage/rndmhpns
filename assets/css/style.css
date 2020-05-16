@@ -39,6 +39,19 @@ font-family: 'Quicksand', sans-serif; */
     -o-transition: all 3s ease-in-out;
 }
 
+.counterbg {
+    background: url("/assets/images/counterbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    border-radius: 10%;
+    padding-left: 35px;
+
+}
+
 /* ------ end of navbar ---------- */
 
 /* ------ body ------------------- */
@@ -106,21 +119,54 @@ font-family: 'Quicksand', sans-serif; */
     border: 1px #5e5e5e solid;
 }
 
-.counter {
+/*.counter {
    font-family: 'Lato', sans-serif;
    background-color: #ffad41;
    border-radius: 3px;
    float: center;
-   /*padding:50%;*/
+   /*padding:50%;
 
-}
+} 
 
+/*.counter-circle {
+    width:50%;
+    height:0;
+    text-align:center;
+    line-height:20px;
+    padding:25% 0;
+    border-radius:50%;
+    background:#09f;
+}*/
+
+/*.counter-circle {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    /*background-color: #ffad41;*/
+   /*border-radius: 3px;
+    float: center;
+    /*width:50%;
+    height:50%;*/
+    /*border-radius: 50%;*/
+    /*font-size:15px;
+    color:#fff;
+    box-sizing: content-box;
+    /*line-height:100px;
+    text-align:center;
+    /*background:#000;
+
+} */
 
 .counter-digit {
    font-family: 'Lato', sans-serif;
+   background-color: #ffad41;
+   border-radius: 50%;
+   height: auto;
+   /*width: 100%;
+   height: auto;
+
    /*float: center;*/
    /*padding:5px;*/
-   border-radius:2px;
+   /*border-radius:2px;*/
    /*border:1px solid #e0e0e0;*/
 
 }
@@ -136,7 +182,7 @@ font-family: 'Quicksand', sans-serif; */
 }
 
 .hpns-bg {
-    background-color: #ffffff;
+    background-color: transparent;
     border-radius: 2px;
 
 }
@@ -198,7 +244,7 @@ img {
 }
 
 .modal-background {
-    background-color: rgba(0, 0, 0, .8)
+    background-color: rgba(0, 0, 0, .9)
 }
 
 .modal-title {
@@ -226,4 +272,28 @@ img {
   background-color: rgb(221, 221, 221);
   color: rgb(112, 112, 112);
   text-align: center;
+  
+} 
+
+/*.slide { 
+    border:1px solid black;
+    height:125px;    
+    left: 0px;
+    right:0px;
+    bottom: 25px;
+    display: none;    
+    position: absolute;
 }
+
+.footer {
+       position:absolute;
+       bottom: 0px;
+       height:25px;
+       width: 100%;       
+       left: 0px;       
+       right: 0px;
+       border:1px solid black;
+       display: inline-block;       
+       cursor:pointer;
+       background:#FFE4E1;       
+    } */
