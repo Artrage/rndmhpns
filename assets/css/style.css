@@ -236,7 +236,7 @@ img {
 /* ------- modal ----------------- */
 
 .modal-index {
-    z-index: 100;
+    z-index: 1000;
 }
 
 .myModal {
@@ -274,6 +274,20 @@ img {
   text-align: center;
   
 } 
+
+.rndmbutton {
+    border-radius: 3px;
+    background-color: #ffad41;
+    color: #000000;
+    margin: 5px;
+    text-decoration: none;
+    border: solid 1px #5e5e5e;
+    
+}
+
+.rndmbutton:active, .rndmbutton:hover, .rndmbutton:focus  {
+    color: #000000;
+}
 
 /*.slide { 
     border:1px solid black;

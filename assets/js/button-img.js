@@ -82,6 +82,15 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function(){
+  $("#update").click(function(){
+    var jump = $("#rndmrulesbtn");
+    jump.animate({fontSize: '1.08em'}, "slow");
+    jump.animate({fontSize: '1em'}, "slow");
+  });
+});
+
+
 function sparks(){
 
 }

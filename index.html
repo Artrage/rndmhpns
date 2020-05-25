@@ -13,6 +13,8 @@
 
 
 
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
 		type="text/css" />
 
@@ -39,6 +41,21 @@
     })();
     </script>
 
+
+    <div class="modal hide fade" id="myModal">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn">Close</a>
+    <a href="#" class="btn btn-primary">Save changes</a>
+  </div>
+</div>
+
     <title>rndm hpns</title>
 </head>
 <body>
@@ -56,7 +73,7 @@
         <a class="nav-link" href="index.html">hm</a>
       </li>
 
-        <div class="modal fade modal-background myModal modal-index" id="exampleModalCenter1" tabindex="-1" role="dialog"
+        <div class="modal fade modal-background myModal modal-index modal-about" id="exampleModalCenter1" tabindex="-1" role="dialog"
             aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="false">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content modal-index">
@@ -182,13 +199,56 @@
 
 </div>
 
+    <script type="text/javascript">
+        $(window).on('load',function(){
+            $('#myModal').modal('show');
+        });
+    </script>           
+
 </body>
 <footer class="footer footer-dark containter-fluid navbar-fixed-bottom">
 <div class="row no-gutters slide">
-    <div class="col-6 evil-footer">
+    <div class="col-4 evil-footer">
          I am drk n evl ftr
     </div>
-    <div class="col-6 paypal-button">
+
+<!-- footer modal -->
+
+
+        <div class="modal fade modal-background myModal modal-index modal-about" id="rndmrules" tabindex="0" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-index">
+                    <div class="modal-header">
+                        <h5 class="modal-title">wht is rndm hpns?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                    </div>
+                    <div class="modal-body modal-text">
+                        This is how you become happy!<br>
+                        1. Start clicking on the clk me button<br>
+                        2. Watch everything jump on the page<br>
+                        3. Enjoy looking at beautiful random photos<br>
+                        4. And keep an eye on your rndm hpns counter: it will increase indefinitely!<br>
+                        5. The higher the counter, the happier you are.<br>
+                        6. Rndm hpns makes total sense!<br><br>
+                        And you can event contact us by email - check out the form in the top right corner
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary modal-text button-toggle" data-dismiss="modal">cls</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="col-4 evil-footer">
+        <button type="button" class="rndmbutton button-toggle" id="rndmrulesbtn" data-toggle="modal" data-target="#rndmrules">wht is rndm hpns?<!--<a class="nav-link" data-toggle="modal" data-target="#rndmrules" href="#">wht is rndm hpns?</a>--></button>
+    </div>
+
+
+    <div class="col-4 paypal-button">
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
 						<input type="hidden" name="cmd" value="_donations" />
 						<input type="hidden" name="business" value="8DAVRXX4QH66J" />
@@ -200,6 +260,7 @@
 </div>
 
 <script src="./assets/js/sendEmail.js">
+
 </script>
 
 </footer>
