@@ -2,6 +2,26 @@
 function display_random_image() 
 {
      var theImages = [{
+        src: "https://i.imgur.com/WQxYvPMl.jpg"
+     }, {
+         src: "https://i.imgur.com/FzzU9gHl.jpg"
+     }, {
+         src: "https://i.imgur.com/JmRhMIcl.jpg"
+     }, { 
+         src: "https://i.imgur.com/CaZVinMl.jpg"
+     }, {
+         src: "https://i.imgur.com/SWjee1dl.jpg"
+     }, {
+         src: "https://i.imgur.com/q2TSRiNl.jpg"
+     }, {
+         src: "https://i.imgur.com/wCO2D9nl.jpg"
+     }, { 
+         src: "https://i.imgur.com/jpJOhYcl.jpg"
+     }, {
+         src: "https://i.imgur.com/qEqm3H0l.jpg"
+     }, {
+         src: "https://i.imgur.com/CFO0NzOl.jpg"
+     }, {
         src: "https://i.imgur.com/zmE1hw4l.jpg",
     }, {
         src: "https://i.imgur.com/NItur1ml.jpg",
@@ -14,8 +34,6 @@ function display_random_image()
     }, {
         src: "https://i.imgur.com/RjlFThfl.jpg",
     }, {
-        src: "https://i.imgur.com/tMjv8cYl.jpg",
-    }, {
         src: "https://i.imgur.com/KEctMJzl.jpg"
     }, {
         src: "https://i.imgur.com/qJn17cCl.jpg"
@@ -27,6 +45,23 @@ function display_random_image()
         src: "https://i.imgur.com/lp2PcQFl.jpg"
     }, {
         src: "https://i.imgur.com/JuytvWll.jpg"
+    }, {
+        src: "https://i.imgur.com/l1SRjril.jpg"
+    }, {
+        src: "https://i.imgur.com/U7tq2yYl.jpg"
+    }, {
+        src: "https://i.imgur.com/OkDxwyZl.jpg"
+    }, {
+        src: "https://i.imgur.com/BsD9OXtl.jpg"
+    }, {
+        src: "https://i.imgur.com/iDpBJvkl.jpg"
+    }, { 
+        src: "https://i.imgur.com/7M6AGoIl.jpg"
+    }, {
+        src: "https://i.imgur.com/ioycVxPl.jpg"
+    }, {
+        src: "https://i.imgur.com/NDmzbQbl.jpg"
+    
     }];
     
     var preBuffer = [];
@@ -89,12 +124,3 @@ $(document).ready(function(){
     jump.animate({fontSize: '1em'}, "slow");
   });
 });
-
-
-function sparks(){
-
-}
-
-function bgchange(){
-
-}

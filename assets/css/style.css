@@ -94,16 +94,14 @@ font-family: 'Quicksand', sans-serif; */
 .button-toggle {
    /* color:#555555;*/
     color:#696969;
-    border: 1px solid #cccccc;
-    border-radius: 2px;
+    border: 1px solid #ffad41;
+    border-radius: 3px;
     outline:none;
     background: #e2e2e2;
     position: relative;
 }
 
-.button-email {
 
-}
 
 .button-toggle:focus {
     outline: none;
@@ -233,6 +231,20 @@ img {
     }
 }
 
+@media screen and (max-height: 1080px) {
+    img {
+         max-height: 77%;
+         width: auto;
+    }
+}
+
+@media screen and (max-height: 1280px) {
+    img {
+         max-height: 80%;
+         width: auto;
+    }
+}
+
 
 /* ------- modal ----------------- */
 
@@ -263,6 +275,10 @@ img {
     outline: none;
 }
 
+.modal-text-left {
+    text-align: left;
+}
+
 /* ------- footer ---------------- */
 
 .footer {
@@ -279,7 +295,7 @@ img {
 .rndmbutton {
     border-radius: 3px;
     background-color: #ffad41;
-    color: #000000;
+    color: #1f1f1f;
     margin: 5px;
     text-decoration: none;
     border: solid 1px #5e5e5e;
@@ -287,7 +303,7 @@ img {
 }
 
 .rndmbutton:active, .rndmbutton:hover, .rndmbutton:focus  {
-    color: #000000;
+    color: #ffad41;
 }
 
 .orange-icon {
