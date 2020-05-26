@@ -49,6 +49,7 @@ font-family: 'Quicksand', sans-serif; */
     width: 100%;
     border-radius: 10%;
     padding-left: 35px;
+    font-weight: strong;
 
 }
 
@@ -92,7 +93,7 @@ font-family: 'Quicksand', sans-serif; */
 
 .button-toggle {
    /* color:#555555;*/
-    color:#4f35df;
+    color:#696969;
     border: 1px solid #cccccc;
     border-radius: 2px;
     outline:none;
@@ -287,6 +288,31 @@ img {
 
 .rndmbutton:active, .rndmbutton:hover, .rndmbutton:focus  {
     color: #000000;
+}
+
+.orange-icon {
+    margin: 10px 0 0 0;
+    color:#696969;
+    font-size: 1.05em;
+}
+
+.list-inline-item a i:hover {
+    color: #fc9804;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+}
+
+.list-inline-contact-item a i:hover {
+    padding: 2px;
+    color: #08002e;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 /*.slide { 
