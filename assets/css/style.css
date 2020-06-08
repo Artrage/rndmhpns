@@ -331,6 +331,27 @@ img {
     -o-transition: all 0.2s ease-in-out;
 }
 
+#ppl {
+    background-image: url('./assets/images/paypal-donate.png');
+}
+
+#ppl:hover {
+    background-image: url('./assets/images/paypal-button-orng.png');
+}
+
+.hover-image {
+    margin-top: 5px;
+}
+
+.hover-image:hover {
+    text-decoration: none;
+    background-color: #fc9804;
+} /* Optional (avoid undesired underscore if a is used as wrapper) */
+.hide {display:none}
+/* Do the shift: */
+.hover-image:hover img:first-child{display:none}
+.hover-image:hover img:last-child{display:inline-block}
+
 /*.slide { 
     border:1px solid black;
     height:125px;    
