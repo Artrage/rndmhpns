@@ -93,7 +93,7 @@ font-family: 'Quicksand', sans-serif; */
 
 .button-toggle {
    /* color:#555555;*/
-    color:#696969;
+    color:#4e4e4e;
     border: 1px solid #ffad41;
     border-radius: 3px;
     outline:none;
@@ -116,6 +116,11 @@ font-family: 'Quicksand', sans-serif; */
     color: #ffad41;
     background-color: #818181;
     border: 1px #5e5e5e solid;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+
 }
 
 /*.counter {
@@ -210,6 +215,8 @@ img {
     image-rendering: -webkit-optimize-contrast;
 }
 
+
+
 @media screen and (max-height: 375px) {
     img {
          height: auto;
@@ -240,11 +247,18 @@ img {
 
 @media screen and (max-height: 1280px) {
     img {
-         max-height: 80%;
+         max-height: 77%;
          width: auto;
     }
 }
 
+
+@media screen and (max-height: 1400px) {
+    img {
+         max-height: 77%;
+         width: auto;
+    }
+}
 
 /* ------- modal ----------------- */
 
@@ -331,26 +345,20 @@ img {
     -o-transition: all 0.2s ease-in-out;
 }
 
-#ppl {
-    background-image: url('./assets/images/paypal-donate.png');
-}
-
-#ppl:hover {
-    background-image: url('./assets/images/paypal-button-orng.png');
-}
-
 .hover-image {
     margin-top: 5px;
+    margin-bottom: 3px;
 }
 
 .hover-image:hover {
     text-decoration: none;
     background-color: #fc9804;
-} /* Optional (avoid undesired underscore if a is used as wrapper) */
-.hide {display:none}
-/* Do the shift: */
-.hover-image:hover img:first-child{display:none}
-.hover-image:hover img:last-child{display:inline-block}
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+
+} 
 
 /*.slide { 
     border:1px solid black;
