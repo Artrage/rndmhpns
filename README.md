@@ -78,4 +78,37 @@ Existing Features
 • 	*On a separate note, I had some trouble enabling the EmailJS API, and tutors were not able to help out. Eventually, I managed to find the problem and remedy it myself.* 
 
 ## TECHNOLOGIES USED
-Bootstrap, css, jQuery, JavaScript, API, a lot of advice advice from stackoverflow and w3 schools.
+Bootstrap, css, jQuery, JavaScript, API, a lot of advice from stackoverflow and w3 schools.
+
+## TESTING
+1.	Each link on the website has been tested, and leads exactly where it is supposed to lead,
+2.	Social Links lead to my social media accounts.
+3.	All the links supposed to open in a separate tab do so
+4.	The website is responsive and looks good on smartphone screens.
+5.	Code testing was carried out page by page on w3 validator. CSS - through Jigsaw validator. A few minor coding errors had been found in my code. 
+6.	HTML beautification was carried in GitPod.
+7.  README was tested on dillinger.io and looks readable and in line with the convention
+
+## DEPLOYMENT
+The project was committed and pushed to GitHub via the git status, git add, git commit and git pushed commands in GitPod.
+
+## CREDITS
+Random image function is something I had to find inspiration for through thorough research. The knowledge received during lectures was not sufficient for me to fully write and deploy this function.
+See the how to draw an owl reference above.
+
+## CONTENT
+All text for the website was written by Art Balenok.
+
+## MEDIA
+The favicon, logos and artwork are by Art Balenok.
+All images were sourced as no-license-to-use.
+There are a number of images sourced from nasa.gov, all sourced as no-license-to-use.
+Some images are property of Art Balenok.
+All Photoshop by Art Balenok. 
+
+## ACKNOWLEDGEMENTS
+• 
+
+• 
+
+**My first README and the first website I submit for grading :) Good luck to me and thank you guys!**
