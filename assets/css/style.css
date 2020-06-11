@@ -310,7 +310,7 @@ img {
     border-radius: 3px;
     background-color: #ffad41;
     color: #1f1f1f;
-    margin: 5px;
+    margin: 5px 0 0 0;
     text-decoration: none;
     border: solid 1px #5e5e5e;
     
@@ -321,7 +321,7 @@ img {
 }
 
 .orange-icon {
-    margin: 10px 0 0 0;
+    margin: 10px 0 3px 0;
     color:#696969;
     font-size: 1.05em;
 }
@@ -346,13 +346,14 @@ img {
 }
 
 .hover-image {
-    margin-top: 5px;
+    margin-top: 3px;
     margin-bottom: 3px;
 }
 
 .hover-image:hover {
     text-decoration: none;
     background-color: #fc9804;
+    border: 1px solid #5e5e5e;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
