@@ -5,16 +5,15 @@
 
 Initially, I intended to build an online art gallery and store. However, it only makes sense with the implementation of server side and back-end, which is beyond the scope of the second milestone project.
 
-This old meme perfectly illustrates how I feel:
+This old meme perfectly illustrates how I feel after completing the JavaScript lectures and lessons:
 ![owl](https://external-preview.redd.it/DodWFQ9mQkVyWoKFa0ZIu12PYrPo3P2T0taaK-lgJCo.png?auto=webp&s=c180684f48b01ff6f2cbc72e080067039943de07)
 Somewhat disillusioned with the course, I came up with a different idea for a simple application. It showcases JavaScript, jQuery, Bootstrap and css features, as required.
 
 Thus, we have **rndm hpns**.
 It meets the thematic requirements for the Milestone Project, since it contains elements of a game, and all the necessary technical aspects.
-In short, the user 
 
 ## WHAT DOES IT DO?
-The application's ultimate goal is to help the user feel better and happier with as little effort as possible, while also enjoying visually appealing photos, unobtrusive animation effects, and super easy navigation.
+The application's ultimate goal is to help the user feel better and happier with as little effort as possible, while also enjoying visually appealing photos, unobtrusive animation effects, and super easy UX.
 
 ## UX PROCESS
 
@@ -50,7 +49,7 @@ Existing Features
 ###	The app in general
 #### The Navbar
 •   It is light-grey, and has two main elemenets: the logo and the hamburger menu
-•   In the top-left corner, it features a bespoke **rndm hpns** logo in orange and grey, matching the app's overall inobtrusive, light and joyful color scheme
+•   In the top-left corner, it features a bespoke **rndm hpns** logo in orange and grey, matching the app's overall inobtrusive, light and joyful color scheme.
 •   In the top-right corner, it features a *hamburger menu*. It stays collapsed in all screen sizes. This is intentional.
 •   The *hamburger menu* contains three separate links: *about* (**abt**), *contact* (**cntct**), *logout* (**lgt**). Each opens in a dedicated modal. Thus, the one-pager concept is observed.
 • **cntct** features a fully functional EmailJS **API**, enabling the user to send an email to the developer's active account. The contact form will open in a modal.
@@ -63,27 +62,27 @@ Existing Features
 •   The animated effects are also in **JavaScript**.
 
 #### The Footer
-•	It is of a slightly darker shade of grey as compared to the header
+•	It is of a slightly darker shade of grey as compared to the header.
 •	It features three elements: social media links, **wht is rndm hpns?** button, and **PayPal** donate button.
 •   Social links and PayPal icons turn *orange* on hover, since they take the user to external pages, respectively.
 •	**wht is rndm hpns?** and **clk me** (body) buttons turn dark grey with orange font, as both of them carry out their functions *within* the application.
-•	Ease-in-out 0.2 second delay effect is used in *hover* on all buttons
-•	All external links open in a new tab
-•   Unique favicon is used throughout
+•	Ease-in-out 0.2 second delay effect is used in *hover* on all buttons.
+•	All external links open in a new tab.
+•   Unique favicon is used throughout.
 
 #### EmailJS API
 • 	Contact form is live and functioning.
 • 	Contact form fields are subject to validation. An email will not be sent if they are not properly filled in.
 
-• 	*On a separate note, I had some trouble enabling the EmailJS API, and tutors were not able to help out. Eventually, I managed to find the problem and remedy it myself.* 
+• 	*On a separate note, I had some trouble enabling the EmailJS API, and tutors were not able to help out. Eventually, I managed to find the problem and fix it myself.* 
 
 ## TECHNOLOGIES USED
 Bootstrap, css, jQuery, JavaScript, API, a lot of advice from stackoverflow and w3 schools.
 
 ## TESTING
-1.	Each link on the website has been tested, and leads exactly where it is supposed to lead,
+1.	Each link on the website has been tested, and leads exactly where it is supposed to lead.
 2.	Social Links lead to my social media accounts.
-3.	All the links supposed to open in a separate tab do so
+3.	All the links are supposed to open in a separate tab, and do so.
 4.	The website is responsive and looks good on smartphone screens.
 5.	Code testing was carried out page by page on w3 validator. CSS - through Jigsaw validator. A few minor coding errors had been found in my code. 
 6.	HTML beautification was carried in GitPod.
@@ -107,8 +106,7 @@ Some images are property of Art Balenok.
 All Photoshop by Art Balenok. 
 
 ## ACKNOWLEDGEMENTS
-• 
 
-• 
-
-**My first README and the first website I submit for grading :) Good luck to me and thank you guys!**
+My second README and the second website I submit for grading. 
+Good luck to me and thank you guys. 
+One note: don't downgrade me on the color scheme, like in the first milestone project. It was so funny that it wasn't even funny, considering I had gone to an arts school, do art, and have designed advertising agencies' branding.
