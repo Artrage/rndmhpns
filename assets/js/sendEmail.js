@@ -9,7 +9,7 @@ myform.submit(function(event){
   myform.find("button").text("sndng...");
   emailjs.sendForm(service_id,template_id,myform[0])
   	.then(function(){ 
-    	alert("snt!");
+    	alert("grt sccs! rndm hpns email snt!");
        myform.find("button").text("snd");
     }, function(err) {
        alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
