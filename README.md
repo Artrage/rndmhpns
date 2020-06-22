@@ -89,6 +89,12 @@ A lot of advice from stackoverflow and w3 schools.
 6.	HTML beautification was carried in GitPod.
 7.  README was tested on dillinger.io and looks readable and in line with the convention
 
+### VALIDATION NOTES
+1. The <div> 'errors' w3 is complaining about pertain to modals. They are not errors, in fact.
+2. Same applies to <footer> 'error': the footer contains a modal, hence the code.
+3. <required> is part of the email form validation, and is not an error.
+
+
 ## DEPLOYMENT
 The project was committed and pushed to GitHub via the git status, git add, git commit and git push commands in GitPod.
 Git pull was used once as the balsamiq mockups pdf had originally been uploaded directly to github.
