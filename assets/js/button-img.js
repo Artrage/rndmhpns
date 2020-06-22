@@ -34,8 +34,6 @@ function display_random_image()
     }, {
         src: "https://i.imgur.com/RjlFThfl.jpg",
     }, {
-        src: "https://i.imgur.com/KEctMJzl.jpg"
-    }, {
         src: "https://i.imgur.com/qJn17cCl.jpg"
     }, {
         src: "https://i.imgur.com/GcU3Pnzl.jpg"
@@ -61,7 +59,16 @@ function display_random_image()
         src: "https://i.imgur.com/ioycVxPl.jpg"
     }, {
         src: "https://i.imgur.com/NDmzbQbl.jpg"
-    
+    }, {
+        src: "https://i.imgur.com/Jnrh61cl.jpg"
+    }, {
+        src: "https://i.imgur.com/nJthzCKl.jpg"
+    }, {
+        src: "https://i.imgur.com/xV16Ur2l.jpg"
+    }, {
+        src: "https://i.imgur.com/yyanrPil.jpg"
+    }, {
+        src: "https://i.imgur.com/U5LxZBcl.jpg"    
     }];
     
     var preBuffer = [];
