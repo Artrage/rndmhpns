@@ -7,6 +7,7 @@ Initially, I intended to build an online art gallery and store. However, it only
 
 This old meme perfectly illustrates how I feel after completing the JavaScript lectures and lessons:
 ![owl](https://external-preview.redd.it/DodWFQ9mQkVyWoKFa0ZIu12PYrPo3P2T0taaK-lgJCo.png?auto=webp&s=c180684f48b01ff6f2cbc72e080067039943de07)
+
 Somewhat disillusioned with the course, I came up with a different idea for a simple application. It showcases JavaScript, jQuery, Bootstrap and css features, as required.
 
 Thus, we have **rndm hpns**.
@@ -45,7 +46,7 @@ Nice colours and beautiful photos always help.
 **  **
 
 ## FEATURES
-Existing Features
+
 ###	The app in general
 #### The Navbar
 •   It is light-grey, and has two main elemenets: the logo and the hamburger menu <br>
@@ -93,7 +94,7 @@ A lot of advice from stackoverflow and w3 schools.
 1. The /div/ 'errors' w3 is complaining about pertain to modals. They are not errors, in fact.
 2. Same applies to /footer/ 'error': the footer contains a modal, hence the code.
 3. /required/ and /placeholder/ are part of the email form validation, and is not an error.
-
+4. Missing PayPal 1px image seems to be a PayPal feature
 
 ## DEPLOYMENT
 The project was committed and pushed to GitHub via the git status, git add, git commit and git push commands in GitPod.
