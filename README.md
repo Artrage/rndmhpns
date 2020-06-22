@@ -90,7 +90,8 @@ A lot of advice from stackoverflow and w3 schools.
 7.  README was tested on dillinger.io and looks readable and in line with the convention
 
 ## DEPLOYMENT
-The project was committed and pushed to GitHub via the git status, git add, git commit and git pushed commands in GitPod.
+The project was committed and pushed to GitHub via the git status, git add, git commit and git push commands in GitPod.
+Git pull was used once as the balsamiq mockups pdf had originally been uploaded directly to github.
 
 ## CREDITS
 Random image function is something I had to find inspiration for through thorough research. The knowledge received during lectures was not sufficient for me to fully write and deploy this function.
