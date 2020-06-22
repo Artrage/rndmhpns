@@ -68,7 +68,18 @@ function display_random_image()
     }, {
         src: "https://i.imgur.com/yyanrPil.jpg"
     }, {
-        src: "https://i.imgur.com/U5LxZBcl.jpg"    
+        src: "https://i.imgur.com/U5LxZBcl.jpg"
+    }, {
+        src: "https://i.imgur.com/T1s9dtTl.jpg"
+    }, {
+        src: "https://i.imgur.com/lLWaWJhl.jpg"
+    }, {
+        src: "https://i.imgur.com/c2EsSEbl.jpg"
+    }, {
+        src: "https://i.imgur.com/clsdIcQl.jpg"
+    }, {
+        src: "https://i.imgur.com/4yva7QRl.jpg"
+     
     }];
     
     var preBuffer = [];
