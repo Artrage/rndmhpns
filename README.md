@@ -48,36 +48,37 @@ Nice colours and beautiful photos always help.
 Existing Features
 ###	The app in general
 #### The Navbar
-•   It is light-grey, and has two main elemenets: the logo and the hamburger menu
-•   In the top-left corner, it features a bespoke **rndm hpns** logo in orange and grey, matching the app's overall inobtrusive, light and joyful color scheme.
-•   In the top-right corner, it features a *hamburger menu*. It stays collapsed in all screen sizes. This is intentional.
-•   The *hamburger menu* contains three separate links: *about* (**abt**), *contact* (**cntct**), *logout* (**lgt**). Each opens in a dedicated modal. Thus, the one-pager concept is observed.
+•   It is light-grey, and has two main elemenets: the logo and the hamburger menu <br>
+•   In the top-left corner, it features a bespoke **rndm hpns** logo in orange and grey, matching the app's overall inobtrusive, light and joyful color scheme.<br>
+•   In the top-right corner, it features a *hamburger menu*. It stays collapsed in all screen sizes. This is intentional.<br>
+•   The *hamburger menu* contains three separate links: *about* (**abt**), *contact* (**cntct**), *logout* (**lgt**). Each opens in a dedicated modal. Thus, the one-pager concept is observed.<br>
 • **cntct** features a fully functional EmailJS **API**, enabling the user to send an email to the developer's active account. The contact form will open in a modal.
 
 #### The Body
-•   It has white background in order to keep the light balance of the color scheme.
-•	It features three main elements: **clk me** button, **hpns lvl** and **counter** on orange background.
-•   As soon as the **clk me** button is clicked, the main centrally aligned element appears: a *random* photo. This is controlled by **JavaScript**.
-•   **JavaScript** also keeps **hpns lvl** count going up with each click.
+•   It has white background in order to keep the light balance of the color scheme.<br>
+•	It features three main elements: **clk me** button, **hpns lvl** and **counter** on orange background.<br>
+•   As soon as the **clk me** button is clicked, the main centrally aligned element appears: a *random* photo. This is controlled by **JavaScript**.<br>
+•   **JavaScript** also keeps **hpns lvl** count going up with each click.<br>
 •   The animated effects are also in **JavaScript**.
 
 #### The Footer
-•	It is of a slightly darker shade of grey as compared to the header.
-•	It features three elements: social media links, **wht is rndm hpns?** button, and **PayPal** donate button.
-•   Social links and PayPal icons turn *orange* on hover, since they take the user to external pages, respectively.
-•	**wht is rndm hpns?** and **clk me** (body) buttons turn dark grey with orange font, as both of them carry out their functions *within* the application.
-•	Ease-in-out 0.2 second delay effect is used in *hover* on all buttons.
+•	It is of a slightly darker shade of grey as compared to the header.<br>
+•	It features three elements: social media links, **wht is rndm hpns?** button, and **PayPal** donate button.<br>
+•   Social links and PayPal icons turn *orange* on hover, since they take the user to external pages, respectively.<br>
+•	**wht is rndm hpns?** and **clk me** (body) buttons turn dark grey with orange font, as both of them carry out their functions *within* the application.<br>
+•	Ease-in-out 0.2 second delay effect is used in *hover* on all buttons.<br>
 •	All external links open in a new tab.
 •   Unique favicon is used throughout.
 
 #### EmailJS API
-• 	Contact form is live and functioning.
-• 	Contact form fields are subject to validation. An email will not be sent if they are not properly filled in.
+• 	Contact form is live and functioning.<br>
+• 	Contact form fields are subject to validation. An email will not be sent if they are not properly filled in.<br>
 
 • 	*On a separate note, I had some trouble enabling the EmailJS API, and tutors were not able to help out. Eventually, I managed to find the problem and fix it myself.* 
 
 ## TECHNOLOGIES USED
-Bootstrap, css, jQuery, JavaScript, API, a lot of advice from stackoverflow and w3 schools.
+Bootstrap, css, jQuery, JavaScript, JavaScript API.
+A lot of advice from stackoverflow and w3 schools.
 
 ## TESTING
 1.	Each link on the website has been tested, and leads exactly where it is supposed to lead.
