@@ -90,9 +90,9 @@ A lot of advice from stackoverflow and w3 schools.
 7.  README was tested on dillinger.io and looks readable and in line with the convention
 
 ### VALIDATION NOTES
-1. The <div> 'errors' w3 is complaining about pertain to modals. They are not errors, in fact.
-2. Same applies to <footer> 'error': the footer contains a modal, hence the code.
-3. <required> is part of the email form validation, and is not an error.
+1. The /div/ 'errors' w3 is complaining about pertain to modals. They are not errors, in fact.
+2. Same applies to /footer/ 'error': the footer contains a modal, hence the code.
+3. /required/ and /placeholder/ are part of the email form validation, and is not an error.
 
 
 ## DEPLOYMENT
