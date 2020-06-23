@@ -1,4 +1,4 @@
-![rndm hpns](https://artrage.github.io/randomio/assets/images/logo.png)
+![rndm hpns](https://artrage.github.io/rndmhpns/assets/images/logo.png)
 
 # SECOND MILESTONE PROJECT: 
 ## rndm hpns
